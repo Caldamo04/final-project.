@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>LANDING PAGE</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+  <section>
+    <div class="circle"></div>
+    <header>
+      <a href="#"><img src="logo.jpeg" class="logo" ></a>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2>It is not just a Coffee<br>Its <span>GREEN TEA</span></h2>
+        <p>Milk tea can refer to a variety of different teas and tea-based drinks from all over the world. At its most simple, milk tea usually means a tea with milk in it - although how these tasty beverages are prepared can vary from country to country and region to region. Milk (and sometimes a sweetener like sugar or honey) is often added to robust black teas in order to reduce astringency and create a mellow, balanced cup of tea.</p>
+        <a href="#">Learn more.</a>
+      </div>
+      <div class="imgBox">
+        <img src="wwww.jpeg" class="GREEN TEA">
+        </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="thumb1.jpeg" oneclick="imgSlider('wwww.jpeg')"></li>
+      <li><img src="thumb2.jpeg" oneclick="imgSlider('wwww2.jpeg')"></li>
+      <li><img src="thumb3.jpeg" oneclick="imgSlider('wwww3.jpeg')"></li>
+    </ul>
+    <ul class="sci">
+      <li><a href="#"><img src="facebook.jpeg" height="100"</a></li>
+      <li><a href="#"><img src="twitter.jpeg" height="100"</a></li>
+      <li><a href="#"><img src="instragram.jpeg" height="100"</a></li>
+    </ul>
+  </section>
+        
+        
+        <script type="text/javascript">
+         function imgSlider(anything){
+           document.querySelector('.GREEN TEA').src = anything;
+         }
+        </script>        
+</body>
+</html>
